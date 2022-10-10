@@ -21,6 +21,11 @@
     color: white;
 }
 
+.navlink:hover {
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
 .brand {
     padding: 22px 2px;
     font-size: 18px;

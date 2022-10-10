@@ -1,4 +1,4 @@
-import { Route, Switch } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import React, { useState, useEffect, useCallback, Suspense } from "react";
 import NavBar from "./components/navBar/navBar";
 import ModeButton from "./components/button/modeButton";
@@ -115,6 +115,9 @@ function App() {
       <Suspense fallback={<div className={theme.toString() === "dark" ? "lds-ring dm-lds-ring" : "lds-ring lm-lds-ring"}><div></div><div></div><div></div><div></div></div>}>
         <Switch>
           <Route path="/" exact>
+            <Redirect to="/covid-dashboard"/>
+          </Route>
+          <Route path="/covid-dashboard">
             <Dashboard theme={theme} data={data}/>
           </Route>
           
