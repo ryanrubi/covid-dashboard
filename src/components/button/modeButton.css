@@ -1,0 +1,18 @@
+#dark-mode {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 23px;
+    right: 40px;
+    cursor: pointer;
+}
+
+#light-mode {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 23px;
+    right: 40px;
+    cursor: pointer;
+    color: rgb(172, 172, 172);
+}

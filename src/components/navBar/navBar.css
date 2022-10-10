@@ -1,0 +1,62 @@
+.navbar-container {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    color: white;
+    background-color: rgb(29, 39, 52);
+}
+
+.navbar-container ul {
+    padding-top: 2rem;
+    list-style-type: none;
+}
+  
+.navbar-container li {
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navlink {
+    text-decoration: none;
+    color: white;
+}
+
+.brand {
+    padding: 22px 2px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.lm-brand {
+    background-color: #FDA42F;
+}
+.dm-brand {
+    background-color: #EC4362;
+}
+
+.icon {
+    font-size: 25px;
+    padding-right: 25px;
+}
+
+.lm-icon {
+    color: #FDA42F;
+}
+.dm-icon {
+    color: #EC4362;
+}
+
+.navbar-container span {
+    position: relative;
+    opacity: 0.3;
+    left: 4rem;
+    top: 40rem;
+}
+.lm-span {
+    color: #FDA42F;
+}
+.dm-span {
+    color: #EC4362;
+}

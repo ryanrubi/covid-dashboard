@@ -1,0 +1,17 @@
+.notif-container {
+    background-color: #EC4362;
+    position: absolute;
+    color: #fff;
+    font-size: 18px;
+    padding: 18px 20px;
+    right: 0;
+    top: 60px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    z-index: 1;
+}
+
+.notif-icon {
+    padding-right: 20px;
+    cursor: pointer;
+}

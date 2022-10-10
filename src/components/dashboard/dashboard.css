@@ -1,0 +1,134 @@
+.dashboard-container {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+#chevron-right {
+    margin: 10px 0 0 16px;
+    width: 30px;
+    height: 50px;
+}
+
+img {
+    margin-right: 4rem;
+    width: 60px;
+    height: 60px;
+}
+
+/* MARQUEE */
+.marquee {
+    padding: 20px;
+    margin-left: 21.4rem;
+    color: rgba(172,172,172);
+    width: 77.9%;
+}
+
+.lm-marquee-container {
+    background-color: white;
+}
+.dm-marquee-container {
+    background-color: rgb(29, 39, 52);
+}
+
+.lm-marquee-data {
+    color: rgba(72,72,72);
+    font-weight: bold;
+}
+.dm-marquee-data {
+    color: rgba(172,172,172);
+    font-weight: bold;
+}
+
+/* GRID */
+.grid-container {
+    display: flex;
+    margin-left: 21.4rem;
+    gap: 20px;   
+    width: 80%;
+}
+
+.grid {
+    display: flex;
+    justify-content: center;
+    line-height: 0.4;
+    text-align: right;
+    padding: 40px 18px;
+    color: rgba(172,172,172);
+    width: 100%;
+}
+
+.lm-grid-box {
+    background-color: white;
+}
+.dm-grid-box {
+    background-color: rgb(29, 39, 52);
+}
+
+.lm-grid-data {
+    color: rgba(72,72,72);
+}
+.dm-grid-data {
+    color: rgba(172,172,172);
+}
+
+/* BARCHART */
+.chart-container {
+    display: flex;
+    margin-left: 21.4rem;
+    gap: 20px; 
+    width: 80%;
+}
+
+.barchart {
+    width: 21.7%;
+    padding: 26px 18px;
+}
+
+.lm-barchart-box {
+    background-color: white;
+    color: rgba(72,72,72);
+    
+}
+.dm-barchart-box {
+    background-color: rgb(29, 39, 52);
+    color: rgba(172,172,172);
+}
+
+/* PIECHART */
+.piechart {
+    padding: 26px 18px;
+    width: 21.7%;
+}
+
+.lm-piechart-box {
+    background-color: white;
+    color: rgba(72,72,72);
+}
+.dm-piechart-box {
+    background-color: rgb(29, 39, 52);
+    color: rgba(172,172,172);
+}
+
+.lm-piechart-data {
+    color: rgba(72,72,72);
+    font-weight: bold;
+}
+.dm-piechart-data {
+    color: rgba(172,172,172);
+    font-weight: bold;
+}
+
+/* DATATABLE */
+.datatable {
+    width: 100%;
+    padding: 26px 18px;
+}
+.lm-datatable-box {
+    background-color: white;
+    color: rgba(72,72,72);
+}
+.dm-datatable-box {
+    background-color: rgb(29, 39, 52);
+    color: rgba(172,172,172);
+}
