@@ -86,4 +86,9 @@
   .title h3 {
     margin-Left: 18rem;
   }
+
+  .lds-ring {
+    margin-left: 56rem;
+    margin-top: 24rem;
+  }
 }
