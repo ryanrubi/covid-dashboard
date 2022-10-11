@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/covid-dashboard/static/css/main.2aa11077.css",
+    "main.css": "/covid-dashboard/static/css/main.059c1f6d.css",
     "main.js": "/covid-dashboard/static/js/main.084e23dc.js",
     "static/css/12.75a14301.chunk.css": "/covid-dashboard/static/css/12.75a14301.chunk.css",
     "static/js/12.a2556f38.chunk.js": "/covid-dashboard/static/js/12.a2556f38.chunk.js",
@@ -12,7 +12,7 @@
     "static/media/deaths.png": "/covid-dashboard/static/media/deaths.82ef59f43893ddae44cf.png",
     "static/media/calendar.png": "/covid-dashboard/static/media/calendar.a56591e1b44b2d01884d.png",
     "index.html": "/covid-dashboard/index.html",
-    "main.2aa11077.css.map": "/covid-dashboard/static/css/main.2aa11077.css.map",
+    "main.059c1f6d.css.map": "/covid-dashboard/static/css/main.059c1f6d.css.map",
     "main.084e23dc.js.map": "/covid-dashboard/static/js/main.084e23dc.js.map",
     "12.75a14301.chunk.css.map": "/covid-dashboard/static/css/12.75a14301.chunk.css.map",
     "12.a2556f38.chunk.js.map": "/covid-dashboard/static/js/12.a2556f38.chunk.js.map",
@@ -22,7 +22,7 @@
     "41.cb9d3168.chunk.js.map": "/covid-dashboard/static/js/41.cb9d3168.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2aa11077.css",
+    "static/css/main.059c1f6d.css",
     "static/js/main.084e23dc.js"
   ]
 }
