@@ -83,6 +83,11 @@
 }
 
 @media only screen and (max-width: 1680px) {
+  body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
   .title h3 {
     margin-Left: 18rem;
   }
