@@ -40,13 +40,13 @@ const Piechart = (props) => {
             <h3 style={{ marginTop: "0"}}>{selectedCountry} New Case</h3><br/><br/><br/>
             {!props.data.apiStatus && <p style={{ textAlign: "center", paddingTop: "9rem" }}>No available Data on API</p>}
             
-            {props.data.apiStatus && <PieChart width={334} height={200}>
+            {props.data.apiStatus && <PieChart width={280} height={200}>
                 <Pie
                 data={data}
                 innerRadius={60}
                 outerRadius={100}
                 fill="#8884d8"
-                paddingAngle={5}
+                paddingAngle={4}
                 dataKey="value">
                     {data.map((entry, index) => (
                         <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />

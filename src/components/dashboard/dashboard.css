@@ -82,7 +82,7 @@ img {
 
 .barchart {
     width: 21.7%;
-    padding: 26px 18px;
+    padding: 26px 45px;
 }
 
 .lm-barchart-box {
@@ -97,7 +97,7 @@ img {
 
 /* PIECHART */
 .piechart {
-    padding: 26px 18px;
+    padding: 26px 44px;
     width: 21.7%;
 }
 
@@ -131,4 +131,58 @@ img {
 .dm-datatable-box {
     background-color: rgb(29, 39, 52);
     color: rgba(172,172,172);
+}
+
+@media only screen and (max-width: 1680px) {
+    img {
+        padding-top: 10px;
+        margin-right: 2rem;
+        width: 50px;
+        height: 50px;
+    }
+
+    #chevron-right {
+        width: 28px;
+        height: 48px;
+    }
+
+    /* MARQUEE */
+    .marquee {
+        padding: 18px 20px;
+        margin-Left: 18rem;
+        width: 77%;
+    }
+
+    /* GRID */
+    .grid-container {
+        margin-Left: 18rem;
+        width: 79.6%;
+    }
+
+    .grid {
+        padding: 30px 12px;
+    }
+
+    /* BARCHART */
+    .chart-container {
+        margin-Left: 18rem;
+        width: 81.6%;
+    }
+
+    .barchart {
+        width: 20.7%;
+        padding: 24px 16px;
+    }
+
+    /* PIECHART */
+    .piechart {
+        padding: 24px 16px;
+        width: 20.8%;
+    }
+
+    /* DATATABLE */
+    .datatable {
+        margin-right: 1.9rem;
+        padding: 24px 16px;
+    }
 }

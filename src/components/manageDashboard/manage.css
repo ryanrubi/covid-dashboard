@@ -15,7 +15,7 @@
 }
 
 .lm-table-container {
-    background-color: white;
+  background-color: white;
 }
 .dm-table-container {
   background-color: rgb(29, 39, 52);
@@ -160,4 +160,24 @@ input[type=checkbox] {
     position: absolute;
     left: 22.9rem;
     top: 32.8rem;
+}
+
+@media only screen and (max-width: 1680px) {
+  /* TABLE */
+  .tbl-container {
+    margin-left: 18rem;
+    width: 76.4%;
+  }
+
+  th {padding: 14px;}
+
+  td {padding: 12px;}
+
+  /* MESSAGE BOX */
+  .mssg-container {
+    padding: 12px;
+    position: absolute;
+    left: 19.5rem;
+    top: 31.2rem;
+  }
 }

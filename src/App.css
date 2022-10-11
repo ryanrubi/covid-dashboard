@@ -10,7 +10,7 @@
 }
 
 .title h3 {
-  margin-Left: 21.4rem;
+  margin-left: 21.4rem;
   margin-top: 0;
 }
 
@@ -79,5 +79,11 @@
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 1680px) {
+  .title h3 {
+    margin-Left: 18rem;
   }
 }

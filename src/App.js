@@ -23,7 +23,8 @@ function App() {
   const [data, setData] = useState({
     global: "",
     countries: "",
-    date: ""
+    date: "",
+    apiStatus: false
   });
 
   //SET DEFAULT LOCAL STORAGE ITEM
@@ -85,14 +86,18 @@ function App() {
 
   useEffect(() => {
     const interval = setInterval(() => {
+      if(!data.apiStatus){
         fetchData();
+      }
     }, 300000);
 
     return () => clearInterval(interval); 
   });
 
   useEffect(() => {
-    fetchData();
+    if(!data.apiStatus){
+      fetchData();
+    }
   });
 
   useEffect(() => {

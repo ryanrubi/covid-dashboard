@@ -16,7 +16,7 @@ const Barchart = (props) => {
       {!props.data.apiStatus && <p style={{ textAlign: "center", padding: "14rem 0 14rem 0" }}>No available Data on API</p>}
 
       {props.data.apiStatus && 
-        <BarChart width={332} height={484} data={data} margin={{ top: 25, right: 10, left: 0, bottom: 25 }}>
+        <BarChart width={280} height={460} data={data} margin={{ top: 25, right: 10, left: 0, bottom: 25 }}>
           <CartesianGrid strokeDasharray="1 1" vertical={false} />
           <XAxis dataKey="name" tick={{ fill: props.theme === "dark" ? "rgba(172,172,172)" : "rgba(72,72,72)" }}/>
           <Tooltip cursor={{ fill: props.theme === "dark" ? "rgba(22,31,39)" : "rgba(220,220,220)" }}/>

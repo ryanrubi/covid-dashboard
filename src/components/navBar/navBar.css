@@ -53,7 +53,7 @@
     color: #EC4362;
 }
 
-.navbar-container span {
+/* .navbar-container span {
     position: relative;
     opacity: 0.3;
     left: 4rem;
@@ -64,4 +64,22 @@
 }
 .dm-span {
     color: #EC4362;
+} */
+
+@media only screen and (max-width: 1680px) {
+    .navbar-container ul {
+        padding-top: 1rem;
+    }
+
+    .navbar-container {
+        width: 260px;
+    }
+    .navbar-container li {
+        padding: 10px 12px;
+    }
+
+    .icon {
+        font-size: 20px;
+        padding-right: 18px;
+    }
 }
