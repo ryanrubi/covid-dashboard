@@ -134,50 +134,58 @@ img {
 }
 
 @media only screen and (max-width: 1680px) {
+    .dashboard-container {
+        gap: 16px;
+    }
+
     img {
-        padding-top: 10px;
+        padding-top: 6px;
         margin-right: 2rem;
-        width: 50px;
-        height: 50px;
+        width: 46px;
+        height: 46px;
     }
 
     #chevron-right {
-        width: 28px;
-        height: 48px;
+        width: 24px;
+        height: 44px;
     }
 
     /* MARQUEE */
     .marquee {
-        padding: 18px 20px;
+        padding: 12px 20px;
         margin-Left: 18rem;
-        width: 77%;
+        width: 78%;
+        font-size: 14px;
     }
 
     /* GRID */
     .grid-container {
         margin-Left: 18rem;
-        width: 79.6%;
+        width: 80.6%;
     }
 
     .grid {
-        padding: 30px 12px;
+        padding: 20px 12px;
+        font-size: 14px;
     }
 
     /* BARCHART */
     .chart-container {
         margin-Left: 18rem;
-        width: 81.6%;
+        width: 82.6%;
     }
 
     .barchart {
-        width: 20.7%;
-        padding: 24px 16px;
+        width: 20.8%;
+        padding: 20px 16px;
+        height: 454px;
     }
 
     /* PIECHART */
     .piechart {
         padding: 24px 16px;
-        width: 20.8%;
+        width: 20.9%;
+        height: 446px;
     }
 
     /* DATATABLE */

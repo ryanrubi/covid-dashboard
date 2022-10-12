@@ -77,7 +77,7 @@ const CountriesDataTable = (props) => {
       columns={columns}
       data={data}
       defaultSortFieldId={1}
-      paginationPerPage={7}
+      paginationPerPage={5}
       paginationComponentOptions={{ noRowsPerPage: true }}
       pagination
     />

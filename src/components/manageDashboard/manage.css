@@ -166,18 +166,24 @@ input[type=checkbox] {
   /* TABLE */
   .tbl-container {
     margin-left: 18rem;
-    width: 76.4%;
+    width: 77%;
   }
 
-  th {padding: 14px;}
+  th {
+    padding: 10px;
+    font-size: 16px;
+  }
 
-  td {padding: 12px;}
+  td {
+    padding: 8px;
+    font-size: 14px;
+  }
 
   /* MESSAGE BOX */
   .mssg-container {
     padding: 12px;
     position: absolute;
     left: 19.5rem;
-    top: 31.2rem;
+    top: 26rem;
   }
 }

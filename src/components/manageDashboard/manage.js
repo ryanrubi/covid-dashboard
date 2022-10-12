@@ -104,7 +104,7 @@ const ManageDashboard = (props) => {
                             <td>Pie Chart</td>
                             <td>
                                 <input type="checkbox" id="pie_chart" onChange={onChangeHandler}/> Pie Chart &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                                <select className={props.theme.toString() === "dark" ? "dm-select" : "lm-select"} id="select">
+                                <select className={props.theme.toString() === "dark" ? "dm-select" : "lm-select"} onClick={onChangeHandler} id="select">
                                     {countries.map( i => {
                                         if(i === "No Available Country"){
                                             return <option key={i} value="Philippines">{i}</option>;

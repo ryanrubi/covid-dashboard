@@ -76,10 +76,16 @@
     }
     .navbar-container li {
         padding: 10px 12px;
+        font-size: 14px;
     }
 
     .icon {
         font-size: 20px;
         padding-right: 18px;
+    }
+
+    .brand {
+        padding: 15.4px 2px;
+        font-size: 16px;
     }
 }

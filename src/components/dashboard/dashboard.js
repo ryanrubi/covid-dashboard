@@ -76,7 +76,7 @@ const Dashboard = (props) => {
                 </div>}
 
                 {widgets.countries && <div className={props.theme.toString() === "dark" ? "datatable dm-datatable-box" : "datatable lm-datatable-box"}>
-                    <h3 style={{ marginTop: "0"}}>Countries</h3>
+                    <h3 style={{ marginTop: "0", fontSize: "16px"}}>Countries</h3>
                     {!props.data.apiStatus && <p style={{ textAlign: "center", paddingTop: "14rem" }}>No available Data on API</p>}
                     {props.data.apiStatus && <CountriesDataTable data={props.data} theme={props.theme}/>}
                 </div>}
