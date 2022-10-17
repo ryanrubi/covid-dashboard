@@ -84,15 +84,22 @@ function App() {
     setTheme(localStorage.theme.toString());
   };
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      if(!data.apiStatus){
-        fetchData();
-      }
-    }, 300000);
+  setInterval(() => {
+    if(!data.apiStatus){
+      fetchData();
+    }
+  }, 300000);
 
-    return () => clearInterval(interval); 
-  });
+    
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     if(!data.apiStatus){
+  //       fetchData();
+  //     }
+  //   }, 300000);
+
+  //   return () => clearInterval(interval); 
+  // });
 
   useEffect(() => {
     if(!data.apiStatus){
